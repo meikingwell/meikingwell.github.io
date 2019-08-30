@@ -1,0 +1,120 @@
+body {
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 32px;
+}
+
+a {
+	color:red;
+}
+
+.nav {
+width:100%;
+background-color:black;
+padding: 10px;
+position: fixed;
+top:0px;
+left:0px;
+}
+
+.nav-item {
+background-color: lime;
+display: inline-block;
+padding: 5px;
+border-radius: 5px;
+color: #000;
+text-decoration: none;
+cursor: pointer;
+}
+
+.nav-header {
+	display: inline-block;
+	color: gray;
+	padding: 5px;
+}
+
+.title {
+	width:100%;
+	margin-top: 50px;
+}
+
+.title img {
+	width: 100%;
+}
+
+.research {
+	display: flex;
+	flex-wrap:wrap;
+}
+
+.research-item {
+	flex: 0 0 33.333%;
+	padding: 10px;
+	transition: 1s;
+	cursor: zoom-in;
+}
+
+.research-item img{
+	width: 100%;
+
+}
+
+.research-item span {
+	color: gray;
+	font-size: 18px;
+
+}
+
+.essay {
+	display: flex;
+	flex-wrap:wrap;
+	margin-top: 80px;
+}
+
+.text {
+	flex:0 0 66.666%;
+	padding: 10px;
+}
+
+.text h1 {
+font-size: 60px;
+}
+
+.text p {
+	margin-bottom: 10px;
+}
+
+.figure {
+	margin-top: 80px;
+	flex:0 0 33.333%;
+}
+
+.figure img {
+	width: 100%;
+}
+
+.figure span {
+	font-size: 18px;
+	color: gray;
+}
+
+/*interactive classes*/
+
+.hide {
+filter: blur(50px);
+}
+
+.show {
+
+}
+
+.large {
+	flex: 0 0 66.666%;
+	transition: 1s;
+	cursor: zoom-out;
+
+}
+
+.active {background-color: red;
+}
+
+
