@@ -30,7 +30,10 @@ a {
 
 .index-name {
 	flex: 0 0 50%;
+}
 
+.index-name a {
+	color:white;
 }
 
 .index-layer{
@@ -181,7 +184,7 @@ a {
 	object-fit: cover;
 }
 
-
+/*popup initial*/
 
 .popup-position {
 	display: none;
@@ -205,6 +208,356 @@ a {
 	padding:20px;
 	border-radius: 4px;
 }
+
+/* popup number 1*/
+
+.popup1 {
+  background-color: yellow;
+  width:200px;
+  height:200px;
+  font-size:40px;
+  position:fixed;
+  top:100px;
+  left:400px;
+  box-shadow:0px 0px 200px blue;
+  display:none;
+  cursor:pointer;
+}
+
+.click-whatami {
+  color:blue;
+  cursor:pointer;
+}
+
+/*individualgeographics*/
+.pingtower {
+	width: 100%;
+	height: 100%;
+	display:flex;
+	flex-wrap:wrap;
+	justify-content: center;
+	
+}
+
+.pingtower img {
+	position: fixed;
+	width:100%;
+	height:100%;
+	object-fit: contain;
+}
+
+
+.mykisingle {
+	width: 100%;
+	height: 100%;
+	display:flex;
+	flex-wrap:wrap;
+	justify-content: center;
+	
+}
+
+.mykisingle img {
+	position: fixed;
+	width:100%;
+	height:100%;
+	object-fit: contain;
+}
+
+.census {
+	width: 100%;
+	height: 100%;
+	display:flex;
+	flex-wrap:wrap;
+	justify-content: center;
+	
+}
+
+.census img {
+	position: fixed;
+	width:100%;
+	height:100%;
+	object-fit: contain;
+}
+
+.facial {
+	width: 100%;
+	height: 100%;
+	display:flex;
+	flex-wrap:wrap;
+	justify-content: center;
+	
+}
+
+.facial img {
+	position: fixed;
+	width:100%;
+	height:100%;
+	object-fit: contain;
+}
+
+.gps {
+	width: 100%;
+	height: 100%;
+	display:flex;
+	flex-wrap:wrap;
+	justify-content: center;
+	
+}
+
+.gps img {
+	position: fixed;
+	width:100%;
+	height:100%;
+	object-fit: contain;
+}
+
+.planes {
+	width: 100%;
+	height: 100%;
+	display:flex;
+	flex-wrap:wrap;
+	justify-content: center;
+	
+}
+
+.planes img {
+	position: fixed;
+	width:100%;
+	height:100%;
+	object-fit: contain;
+}
+
+.footflow {
+	width: 100%;
+	height: 100%;
+	display:flex;
+	flex-wrap:wrap;
+	justify-content: center;
+	
+}
+
+.footflow img {
+	position: fixed;
+	width:100%;
+	height:100%;
+	object-fit: contain;
+}
+
+.lowbattery {
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 72px;
+	background-color: black;
+	color:red;
+	border: solid red;
+	height: 100vh;
+	display:flex;
+	align-items: center;
+	justify-content: center;
+}
+
+
+
+.ctrlc1 {
+	background: lime;
+	height:100vh;
+}
+
+
+.ctrlc2 {
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 180px;
+	color:blue;
+  	animation-name: spin, depth;
+  	animation-timing-function: linear;
+  	animation-iteration-count: infinite;
+ 	animation-duration: 5s;
+ 	height: 100vh;
+ 	display:flex;
+  	align-items: center;
+  	justify-content: center;
+}
+@keyframes spin {
+  from { transform: rotateY(0deg); }
+  to { transform: rotateY(-360deg); }
+}
+@keyframes depth {
+  0 { text-shadow: 0 0 black; }
+  25% { text-shadow: 1px 0 black, 2px 0 black, 3px 0 black, 4px 0 black, 5px 0 black; }
+  50% { text-shadow: 0 0 black; }
+  75% { text-shadow: -1px 0 black, -2px 0 black, -3px 0 black, -4px 0 black, -5px 0 black; }
+  100% { text-shadow: 0 0 black; }
+}
+
+.ctrlx {
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 180px;
+	color:red;
+	height: 100vh;
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	}
+
+
+.ctrlxemoji {
+  animation: blink-animation 1s steps(5, start) infinite;
+}
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+
+.ctrlx {
+	height: : 100vh;
+	background-color: blue;
+}
+
+.RGB{
+    height: 100vh;
+   	animation-name: rgbcolor;  
+    animation-iteration-count: infinite;  
+    animation-duration: 15s; 
+}
+
+	@keyframes rgbcolor {  
+  0% { background-color: red; }
+  33.333% { background-color: lime; }
+  66.666% { background-color: blue; }
+  100% { background-color: red; }
+
+}
+.RGBtext {
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 200px;
+	color:white;
+	height: 100vh;
+	display:flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.CMYK{
+    height: 100vh; 
+}
+
+	@keyframes cmykcolor {  
+  0% { color:cyan; }
+  25% { color: magenta; }
+  50% { color: yellow; }
+  75% { color: black; }
+  100% { color: cyan; }
+
+}
+.CMYKtext {
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 200px;
+	color:white;
+	height: 100vh;
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	animation-name: cmykcolor;  
+    animation-iteration-count: infinite;  
+    animation-duration: 10s;
+}
+
+.bluescreen1 {
+	background-color: blue;
+}
+
+.bluescreen2 {
+	display: flex;
+	height: 100vh;
+	align-items: center;
+  	justify-content: center;
+  	font-family: Helvetica,Arial,sans-serif;
+	font-size: 100px;
+	color: white;
+}
+
+
+.playemoji {
+  	font-family: Helvetica,Arial,sans-serif;
+	font-size: 300px;
+	color: blue;
+	position: fixed;
+	left:40%;
+	top: 30%;
+	mix-blend-mode:difference;
+}
+
+.playtext {
+  	font-family: Helvetica,Arial,sans-serif;
+	font-size: 200px;
+	color: lime;
+	position: fixed;
+	left:35%;
+	top:35%;
+}
+
+.grid {
+  display: flex;
+  flex-wrap:wrap;
+  font-family:  Helvetica,Arial,sans-serif;
+  font-size:8vw;
+}
+
+.grid-red {
+  width: 50%;
+  height: 50vh;
+  background-color: GreenYellow;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.grid-blue {
+  width: 50%;
+  height: 50vh;
+  background-color: blue;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.grid-green {
+  width: 50%;
+  height: 50vh;
+  background-color: blue;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.grid-black {
+  width: 50%;
+  height: 50vh;
+  background-color: GreenYellow;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.loading {
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 100px;
+	color: GreenYellow;
+}
+
+
+
+
+
+
+
+
+
 
 /*checkers type*/
 
@@ -257,3 +610,4 @@ a {
 	border:1px solid gray;
 	font-size:11vw;
 }
+
