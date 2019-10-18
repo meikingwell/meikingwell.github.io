@@ -1,6 +1,7 @@
 body {
 	font-family: Helvetica,Arial,sans-serif;
-	font-size: 32px;
+	font-size: 22px;
+	background-color: black;
 }
 
 a {
@@ -17,11 +18,14 @@ left:0px;
 }
 
 .nav-item {
-background-color: lime;
+border-style: solid;
+border-color: lime;
+border-width: 2px;
+background-color: black;
 display: inline-block;
 padding: 5px;
 border-radius: 5px;
-color: #000;
+color: #fff;
 text-decoration: none;
 cursor: pointer;
 }
@@ -47,14 +51,14 @@ cursor: pointer;
 }
 
 .research-item {
-	flex: 0 0 33.333%;
+	flex: 0 0 20%;
 	padding: 10px;
 	transition: 1s;
 	cursor: zoom-in;
 }
 
 .research-item img{
-	width: 100%;
+	width: 20vw;
 
 }
 
@@ -80,7 +84,7 @@ font-size: 60px;
 }
 
 .text p {
-	margin-bottom: 10px;
+	margin-bottom: 30px;
 }
 
 .figure {
@@ -100,7 +104,7 @@ font-size: 60px;
 /*interactive classes*/
 
 .hide {
-filter: blur(50px);
+display:none;
 }
 
 .show {
@@ -114,7 +118,11 @@ filter: blur(50px);
 
 }
 
-.active {background-color: red;
+.active {background-color: lime;
+}
+
+.text {
+	color: white;
 }
 
 

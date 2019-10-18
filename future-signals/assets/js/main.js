@@ -20,10 +20,9 @@ $(document).ready(function(){
 
 	// button filters
 
-	$('.btn-car').click(function(){
+	$('.btn-sony').click(function(){
 		hideAll();
-		$('.car').removeClass('hide')
-
+		$('.sony').removeClass('hide')
 	});
 
 
@@ -32,9 +31,42 @@ $(document).ready(function(){
 		$('.nintendo').removeClass('hide')
 	});
 
-	$('.btn-tracking').click(function(){
+	$('.btn-microsoft').click(function(){
 		hideAll();
+		$('.microsoft').removeClass('hide')
 	});
+
+	$('.btn-misc').click(function(){
+		hideAll();
+		$('.misc').removeClass('hide')
+	});
+
+	$('.btn-goback').click(function(){
+		hideAll();
+		$('.goback').removeClass('hide')
+	});
+
+	$('.btn-resume').click(function(){
+		hideAll();
+		$('.resume').removeClass('hide')
+	});
+
+	$('.btn-nextlevel').click(function(){
+		hideAll();
+		$('.nextlevel').removeClass('hide')
+	});
+
+	$('.btn-handheld').click(function(){
+		hideAll();
+		$('.handheld').removeClass('hide')
+	});
+
+	$('.btn-stationary').click(function(){
+		hideAll();
+		$('.stationary').removeClass('hide')
+	});
+
+
 
 	// button all
 	$(".btn-all").click(function(){
