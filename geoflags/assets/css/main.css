@@ -402,6 +402,7 @@ a {
 .ctrlxemoji {
   animation: blink-animation 1s steps(5, start) infinite;
 }
+
 @keyframes blink-animation {
   to {
     visibility: hidden;
@@ -547,10 +548,175 @@ a {
 .loading {
 	font-family: Helvetica,Arial,sans-serif;
 	font-size: 100px;
-	color: GreenYellow;
+	color: GreenYellow; 
+}
+
+.loadingtext1 {
+	position: fixed;
+	top:100px;
+	left:100px;
+	animation: blink-animation 0.5s steps(5, start) infinite;
+}
+
+.loadingtext2 {
+	position: fixed;
+	top:200px;
+	left:700px;
+	animation: blink-animation 1s steps(5, start) infinite;
+}
+
+.loadingtext3 {
+	position: fixed;
+	top:300px;
+	left:300px;
+	animation: blink-animation 2s steps(5, start) infinite;
+}
+
+.loadingtext4 {
+	position: fixed;
+	top:600px;
+	left:250px;
+	animation: blink-animation 0.8s steps(5, start) infinite;
+}
+
+.loadingtext5 {
+	position: fixed;
+	top:500px;
+	left:900px;
+	animation: blink-animation 1.5s steps(5, start) infinite;
 }
 
 
+.emoji {
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 200px;
+	height: 100vh;
+	display:flex;
+	justify-content: center;
+	align-items: center; 
+}
+
+.emojismile {
+	animation-name: spin, depth;
+  	animation-timing-function: linear;
+  	animation-iteration-count: infinite;
+ 	animation-duration: 5s;
+}
+
+.emojiangry {
+	animation-name: spin, depth;
+  	animation-timing-function: linear;
+  	animation-iteration-count: infinite;
+ 	animation-duration: 5s;
+}
+
+.emojiglasses {
+	animation-name: spin, depth;
+  	animation-timing-function: linear;
+  	animation-iteration-count: infinite;
+ 	animation-duration: 5s;
+}
+
+.pin {
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 400px;
+	color:red;
+	border: solid red;
+	height: 100vh;
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	mix-blend-mode: difference;
+
+}
+
+.maps {
+	position: fixed;
+	height: 100vh;
+	width: 100vh;
+	z-index: -5;
+	animation: moveanimation 10s;
+	animation-iteration-count: infinite;
+
+}
+
+@keyframes moveanimation
+{
+    0% {
+        left: 100%;
+    }
+    100% {
+        left: -130%;
+    }
+}
+
+
+.tickettext {
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 200px;
+	color:white;
+	height: 100vh;
+	display:flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+.ticketemoji1 {
+	position: fixed;
+	left: 70px;
+	top:-110px;
+	font-size: 1000px;
+	mix-blend-mode: difference;
+	animation-name: flip;
+  	animation-timing-function: linear;
+  	animation-iteration-count: infinite;
+ 	animation-duration: 11s;
+}
+
+@keyframes flip {
+  from { transform: rotateX(0deg); }
+  to { transform: rotateX(-360deg); }
+}
+
+
+  .trafficback {
+  	background-color: white;
+  	animation: blink-animation 0.1s steps(5, start) infinite;
+  	height:100vh;
+
+  }
+
+
+ .trafficemoji {
+ 	position: absolute;
+	top:0px;
+	left:30%;
+	height: 720px;
+ 	display: flex;
+ 	align-items: center;
+ 	font-size: 250px;
+ 	height:100vh;
+ 	z-index: 1;
+ }
+
+ .ptv {
+ 	height: 100vh;
+ }
+
+ .ptvemoji {
+ 	font-size: 200px;
+ 	display: flex;
+ 	justify-content: center;
+ 	align-items: center;
+ 	height: 100vh;
+	}
+
+	.ptvmap {
+	position: fixed;
+	height: 100vh;
+	width: 100vh;
+}
 
 
 

@@ -2,7 +2,7 @@ body {
 	font-family: Helvetica,Arial,sans-serif;
 	font-size: 58px;
 	color:peachpuff;
-	background-color:peachpuff;
+	background-color:peachpuff; 
 }
 
 a {
@@ -36,7 +36,7 @@ a {
 }
 .bitmoji img {
 	width:100%;
-	background-color: peachpuff;
+	
 }
 
 .main {
@@ -70,17 +70,22 @@ a {
 	margin-left: auto;
 	z-index:-30;
 	opacity: 0.5;
+	width: 100%;
 }
 
 .newimage img {
-	width: 120%;
+	width: 50%;
 }
 
 .TurrellOne {
+	width:48%;
+	margin-left: 52%;
 	text-align: left;
 	font-size: 25px;
 	color:#0E1C36;
-	width: 420px;
-	margin-left: 300px;
 	margin-top: 100px;
+}
+
+.TurrellOne p {
+	margin-bottom: 10px;
 }

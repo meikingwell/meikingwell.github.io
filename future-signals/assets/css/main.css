@@ -101,6 +101,54 @@ font-size: 60px;
 	color: gray;
 }
 
+.one {
+	position: absolute;
+	width: 33.333%;
+	top: 220px;
+	left: 66.666%;
+	object-fit: scale-down;
+}
+.two {
+	position: absolute;
+	width: 33.333%;
+	top: 675px;
+	left: 66.666%;
+	object-fit: scale-down;
+}
+
+.three {
+	position: absolute;
+	width: 33.333%;
+	top: 1100px;
+	left: 66.666%;
+	object-fit: cover;
+}
+
+.four {
+	position: absolute;
+	width: 33.333%;
+	top: 1820px;
+	left: 66.666%;
+	object-fit: cover;
+}
+
+.five {
+	position: absolute;
+	width: 33.333%;
+	top: 2800px;
+	left: 66.666%;
+	object-fit: cover;
+}
+
+.six {
+	position: absolute;
+	width: 33.333%;
+	top: 3300px;
+	left: 66.666%;
+	object-fit: cover;
+}
+
+
 /*interactive classes*/
 
 .hide {
