@@ -4,7 +4,7 @@ body {
 }
 
 .main a {
-	color: orangered;
+	color: white;
 	text-decoration: none;
 }
 
@@ -79,6 +79,54 @@ a:hover
 	font-size:70px;
 	cursor:move;
 	z-index: 99;
+}
+
+.draggable2 {
+	width:100px;
+	height: 100px;
+	position:fixed;
+	top: 400px;
+	left:800px;
+	font-size:70px;
+	cursor:move;
+	z-index: 99;
+
+}
+
+.draggable3 {
+	width:100px;
+	height: 100px;
+	position:fixed;
+	top: 550px;
+	left:950px;
+	font-size:70px;
+	cursor:move;
+	z-index: 99;
+
+}
+
+.draggable4 {
+	width:100px;
+	height: 100px;
+	position:fixed;
+	top: 150px;
+	left:1050px;
+	font-size:70px;
+	cursor:move;
+	z-index: 99;
+
+}
+
+.draggable5 {
+	width:100px;
+	height: 100px;
+	position:fixed;
+	top: 300px;
+	left:1250px;
+	font-size:70px;
+	cursor:move;
+	z-index: 99;
+
 }
 
 .dragtext {
@@ -189,9 +237,19 @@ a:hover
 	
 }
 
+.longcopy h2 {
+	font-family: 'Heebo', sans-serif;
+	font-weight:400;
+	font-size: 20px;
+	margin-left:30px;
+	margin-bottom: 30px;
+	margin-right: 300px;
+
+}
+
 .selected  a{
 	font-weight:900;
-	color: blue;
+	color: lime;
 }
 
 
@@ -213,7 +271,7 @@ a:hover
 
 }
 
-.hbupages a{
+.hbupages a {
 	font-family: 'Abel', sans-serif;
 	font-size: 20px;
 	margin-right: 20px;
